@@ -244,3 +244,7 @@ Extraire une archive compressée
 tar -xzvf backup.tar.gz
 ```
 
+Extraire dans un dossier cible :
+```shell
+tar -xzvf backup.tar.gz -C /dossier_cible
+```
